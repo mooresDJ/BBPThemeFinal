@@ -1,0 +1,34 @@
+{
+  "name": "bbp-sites-template",
+  "version": "1.0.0",
+  "description": "Basic template for a new Foundation for Sites project.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "author": "Foundation Yetinauts <contact@get.foundation> (https://get.foundation)",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "^6.7.4",
+    "jquery": ">=3.6.0",
+    "motion-ui": "latest",
+    "webpack": "^5.72.0",
+    "what-input": ">=5.2.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.12",
+    "sass": "^1.51.0"
+  },
+  "private": false,
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
